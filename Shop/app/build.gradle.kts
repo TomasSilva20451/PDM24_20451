@@ -59,11 +59,18 @@ dependencies {
 
     // Firebase
     implementation(libs.firebase.firestore)
+    implementation("com.google.firebase:firebase-bom:33.7.0")
+    implementation("com.google.firebase:firebase-auth-ktx:23.1.0")
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.1")
+
+    // Play Services
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
 
     // Jetpack Compose - ViewModel e Navigation
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.activity:activity-compose:1.9.3")
     implementation("androidx.compose.foundation:foundation:1.6.0")
+    implementation("androidx.navigation:navigation-compose:2.8.5")
 
     // Testes
     testImplementation(libs.junit)

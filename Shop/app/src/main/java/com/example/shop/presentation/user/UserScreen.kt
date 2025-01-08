@@ -8,6 +8,6 @@ fun UserScreen(viewModel: UserViewModel) {
     val user = viewModel.userData
 
     // Exibe o nome do usuário (exemplo)
-    Text(text = "Nome do usuário: ${user.name}")
+    Text(text = "Nome do utilizador: ${user.name}")
     // Outros campos, como email ou foto de perfil, podem ser adicionados aqui
 }
